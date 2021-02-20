@@ -1,14 +1,13 @@
 package com.example.anja;
 
-public class Baguette implements Bread{
+public class Brioche implements Bread{
     @Override
     public String name() {
-        return "Baguette";
+        return "Brioche";
     }
 
     @Override
     public String calories() {
-        return ":65kal";
+        return ":85kcal";
     }
 }
-
